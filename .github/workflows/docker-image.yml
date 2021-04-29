@@ -38,3 +38,6 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: bekdemo/node-webapp:latest
+          
+      - name: test env
+        run: echo "number is: $number"
