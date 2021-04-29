@@ -43,4 +43,4 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: bekdemo/node-webapp:latest
+          tags: bekdemo/node-webapp:${{ env.num }}
