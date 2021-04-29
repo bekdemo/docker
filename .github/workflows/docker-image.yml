@@ -5,6 +5,8 @@ on:
     types: [ published ]
   push:
     branches: [ master ]
+env:
+  number: $(cat number)
 
 jobs:
   main:
