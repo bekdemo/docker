@@ -34,7 +34,7 @@ jobs:
 
 
       - name: check var
-        run: cat $num
+        run: echo $num
         
       - name: Build and push
         id: docker_build
