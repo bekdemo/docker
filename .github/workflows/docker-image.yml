@@ -40,4 +40,5 @@ jobs:
           tags: bekdemo/node-webapp:latest
           
       - name: test env
-        run: echo "number is: $number"
+        run: |
+          echo "number is: $number"
