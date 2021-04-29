@@ -6,7 +6,7 @@ on:
   push:
     branches: [ master ]
 env:
-  number: $(cat number)
+  number: "$(cat number)"
 
 jobs:
   main:
