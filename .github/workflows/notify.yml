@@ -1,3 +1,5 @@
+name: NOTIFY
+
 on:
   workflow_run:
     workflows: [DEV]
